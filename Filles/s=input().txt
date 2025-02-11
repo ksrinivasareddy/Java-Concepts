@@ -1,0 +1,28 @@
+s=input()
+l=s.split()
+l1=[]
+for i in range(len(l)):
+    l1.append(len(l[i]))
+for i in range(len(l1)):
+    for j in range(len(l1)):
+        if(l1[i]<l1[j]):
+            l1[i],l1[j]=l1[j],l1[i]
+print(l1[-1])
+
+
+
+
+
+
+
+n=int(input())
+l=list(map(int,input().split(",")))[:n]
+l1=[]
+l2=[]
+for i in range(n):
+    if(l[i]<0):
+        l1.append(l[i])
+for i in range(n):
+    if(l[i]>0):
+        l2.append(l[i])
+print(l1+l2)

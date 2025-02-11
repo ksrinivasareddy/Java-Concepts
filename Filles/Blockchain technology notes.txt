@@ -1,0 +1,113 @@
+Blockchain technology:
+=======================
+
+Blockchain is a distributed ledger technology that ensures data transparency, security, and decentralization.
+
+ledger : 
+========
+
+ledger is a record of accounting entries that contains information about business transactions.
+
+
+Hash Value:
+==========
+
+hash value is used to fetch the block in the blockchain.
+
+timestamp:
+==========
+A timestamp is a small piece of data stored in each block on a blockchain that indicates the exact moment it was created.
+
+
+uses of blockchain:
+---------------------
+government sectors.
+banking apps and kyc.
+health sectors.
+
+security:
+------------
+immutable(cannot change) or append only.
+proof of work.
+
+
+main features of blockchain:
+==========================
+
+1)ledger.
+2)decentralize
+3)consensus.(backend process)
+4)mining.(mining the data from blocks)
+  proof of work
+  proof of stakes
+  proof of space
+  
+decentralize:
+transfer of control and discussion making to individual entity.
+
+consensus is a system that validates a transaction and mark it as authentic.  
+
+Mining : it is the competition work that network nodes undertake information containing blocks.
+types:
+------
+proof of work
+proof of stake
+proof of space
+
+Smart contract:
+-----------------------------
+
+smart contract are high level codes that are compares to evm bite codes and deploy to the Ethereum block chain for further execution. it allows to perform
+
+evm
+Ethereum
+
+what is solidity and features:
+-------------------------------
+Solidity is a statically typed, object-oriented programming language designed specifically for writing smart contracts on blockchain platforms like Ethereum
+features:
+----------
+high level language to implement Smart Contract Development
+Static Typing contract.
+python, c++, JavaScript.
+Object-Oriented
+Security
+Decentralization
+
+
+solidity datatypes:
+-------------------
+have two different data types
+1) value type (store their own data and this are the basic datatype provided by solidity. this type of variables are always pass by value)
+2)Boolean
+
+Integer (int and unit)
+
+fixed point numbers
+
+address(hold 20byte value which represent the size of an Ethereum address. it can be used to get An address can be used to get a balance or to transfer a balance by balance and transfer method respectively.)
+
+Bytes(max 32bit and min 1bit(bytes are similar to string used to store a fixed size elements while the string stores equal or more than a byte. string has dynamic length)
+advantage of byte:
+-----------------------
+that is uses less gas.
+
+Enums(user define data type)
+used to create user define datatypes and used to assign a name to integral construal which makes the content more readable and less prone to error.
+
+
+2) reference types:  (Reference type variables store the location of the data. They don’t share the data directly. With the help of reference type, two different variables can refer to the same location where any change in one variable can affect the other one.)
+   ---------------
+Array
+1) fixed 
+2) dynamic
+struct
+string
+mapping(key value pair)(It is like hash table or dictionary.Where data can be retrieved by a key.
+)
+
+
+
+
+
+
